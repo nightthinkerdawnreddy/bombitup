@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <h1>hello from template</h1>
+    <form  method="post">
+        {% csrf_token %}
+        <h2>phonenumber</h2>
+        <br>
+        <input type="text" name="phonenumber">
+        <h2>noofmessages</h2>
+        <br>
+        <input type="text" name="noofmessages">
+        <br>
+        <br>
+        <button type="submit">clicktosubmit</button>
+    </form>
+</body>
+</html>
